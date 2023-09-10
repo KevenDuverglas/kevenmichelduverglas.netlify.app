@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Professional Précis",
+    "section": "",
+    "text": "Hello my name is Keven Michel Duverglas, and I am Sophmore at Allegheny. A fun fact about me is that I can speak three language. I am looking forward to collaborating with everyone throughout the semester and get to know the dev-team well."
+  },
+  {
+    "objectID": "index.html#se1",
+    "href": "index.html#se1",
+    "title": "Professional Précis",
+    "section": "SE1",
+    "text": "SE1\n\nSummary\nThere’s an exploration of what exactly “software engineering” means, and the reading distinguishes it not only from fields like programming and computer science but also shedding light on how it stands in relation to other disciplines with “engineering” in their title. It also speaks on the matters regarding the growth of organizations and release new software.\n\n\nReflection\nI am firmly convinced that this book provides insights into crafting efficient code. These insights offer practical advice on how to refine one’s coding practices for the long term. One of the standout aspects of the book is its emphasis on reducing redundancy in code, which not only makes the code cleaner but also easier to maintain.\n\n\nUse-Case\nThis book provides the tools for us to run code, allowing Chasten to evaluate and utilize it within a test-case setting."
+  },
+  {
+    "objectID": "index.html#fb1",
+    "href": "index.html#fb1",
+    "title": "Professional Précis",
+    "section": "FB1",
+    "text": "FB1\n\nSummary\nThe initial chapter introduces core concepts of software testing, addressing the necessity, methods, and assessment of software testing. Using Python and interactive notebooks, readers are familiarized with these principles. The chapter provides a basic my_sqrt() function, which aims to compute the square root of a given number. A brief overview of understanding Python’s structure and syntax is provided, followed by a practical demonstration of running the function. Readers can directly experiment with the function and observe results, while also making edits to the provided content. And this can be done through a Jupyter Notebook.\n\n\nReflection\n—-Still in progress—\n---code---\n\n\nUse-Case\n—-Still in progress—"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Keven’s blog were I talk about relay the information that I have learned over the reading. And will also provide my thoughts and opinions."
+  }
+]

@@ -1,0 +1,65 @@
+---
+title: "Professional Précis"
+subtitle: "Author: (Keven M. Duverglas)"
+---
+
+# About the Author
+
+Hello my name is Keven Michel Duverglas, and I am Sophmore at Allegheny. A fun fact about me is that I can speak three language.
+I am looking forward to collaborating with everyone throughout the semester and get to know the dev-team well.
+
+
+# Week 1
+
+## SE1
+
+#### Summary
+
+
+There's an exploration of what exactly
+"software engineering" means, and the reading distinguishes it not only
+from fields like programming and computer science but also
+shedding light on how it stands in relation to other disciplines
+with "engineering" in their title. It also speaks on the matters regarding the 
+growth of organizations and release new software. 
+
+#### Reflection
+
+I am firmly convinced that this book provides insights into crafting efficient code.
+These insights offer practical advice on how to refine one's
+coding practices for the long term. One of the standout aspects of the book is its emphasis
+on reducing redundancy in code, which not only makes the code cleaner but also easier to maintain. 
+
+#### Use-Case
+
+This book provides the tools for us to run code, allowing Chasten to evaluate and utilize it within a test-case setting.
+
+## FB1
+
+#### Summary
+
+The initial chapter introduces core concepts of software testing, addressing the necessity,
+methods, and assessment of software testing. Using Python and interactive notebooks, readers
+are familiarized with these principles. The chapter provides a basic my_sqrt() function, which
+aims to compute the square root of a given number. A brief overview
+of understanding Python's structure and syntax is provided, followed by a practical demonstration of
+running the function. Readers can directly experiment with the
+function and observe results, while also making edits to the provided content. And this can be done through a Jupyter 
+Notebook.
+
+#### Reflection
+
+This chapter provided a comprehensive look into the world of software testing,
+offering both theoretical knowledge and hands-on tools for practical implementation.
+One of the intriguing parts for me was the example on testing the my_sqrt() function. Implementing a square root
+function might appear elementary,
+but the emphasis on the Newton–Raphson method highlighted the process behind it.
+
+#### Use-Case
+
+The first chapter of the Fuzzing book does a solid job of laying down the basics.
+It sets the stage for the kind of deep thinking we'll need when we start building the
+Chasten tool. By mixing theory with hands-on examples, readers get a good grasp of what's
+ahead. This foundation is key, making sure everyone's on the same page as we dive into the
+more complex parts of the book.
+It's clear that this chapter is an essential starting point for everything that follows.
