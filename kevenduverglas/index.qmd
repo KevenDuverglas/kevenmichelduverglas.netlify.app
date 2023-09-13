@@ -15,7 +15,6 @@ I am looking forward to collaborating with everyone throughout the semester and 
 
 #### Summary
 
-
 There's an exploration of what exactly
 "software engineering" means, and the reading distinguishes it not only
 from fields like programming and computer science but also
@@ -63,3 +62,35 @@ Chasten tool. By mixing theory with hands-on examples, readers get a good grasp 
 ahead. This foundation is key, making sure everyone's on the same page as we dive into the
 more complex parts of the book.
 It's clear that this chapter is an essential starting point for everything that follows.
+
+
+# Week 2
+
+## SE2
+
+The article contrasts programming with software engineering, emphasizing three primary distinctions:
+time, scale, and trade-offs. Time emerges as a crucial factor, with software engineering often focusing
+on projects with extended lifespans that shifts in technology or business trends.
+Unlike standalone programming tasks, software engineering is inherently collaborative, 
+challenges related to team dynamics, project
+management, and organizational policies. As projects and teams expand, maintaining efficiency is vital.
+Furthermore, the discipline of software engineering demands intricate decision-making. Engineers face
+complex trade-offs, frequently operating within an environment of differing metrics.
+
+#### Reflection
+
+Reading this, I can resonate with the aspects of drawbacks and trade-offs in software engineering.
+This is evident in class where many of my colleagues often have to decide which tasks are more crucial
+to complete. Additionally, time significantly influences our work ethic and decision-making.
+It's a constant balance of prioritizing immediate needs against long-term objectives.
+
+#### Use-Case
+
+During our software development, it's crucial to evaluate the trade-offs of our programming choices.
+Understanding the advantages and disadvantages before deployment is vital to ensure we don't
+introduce issues into our code, and also intergate time-keeping as a habit.
+
+
+
+
+
