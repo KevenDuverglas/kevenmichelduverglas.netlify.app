@@ -68,6 +68,8 @@ It's clear that this chapter is an essential starting point for everything that 
 
 ## SE2
 
+#### Summary
+
 The article contrasts programming with software engineering, emphasizing three primary distinctions:
 time, scale, and trade-offs. Time emerges as a crucial factor, with software engineering often focusing
 on projects with extended lifespans that shifts in technology or business trends.
@@ -89,6 +91,45 @@ It's a constant balance of prioritizing immediate needs against long-term object
 During our software development, it's crucial to evaluate the trade-offs of our programming choices.
 Understanding the advantages and disadvantages before deployment is vital to ensure we don't
 introduce issues into our code, and also intergate time-keeping as a habit.
+
+## FB2
+
+#### Summary
+
+To achieve nearly perfect code coverage, we utilize a technique known as fuzzing.
+Fuzzing involves generating random characters to test various input scenarios.
+This method helps generate potential outcomes for different functions,
+like the provided example of the cgi_decode function.
+Through this, we determine the necessary inputs
+to achieve comprehensive code coverage in our tests.
+
+
+#### Reflection
+
+Implementing such testing mechanisms proves invaluable for identifying
+maximum coverage using random fuzzing inputs. It's particularly effective
+in discovering edge cases in extensive programs with myriad input possibilities.
+However, it's a time-consuming approach. Hence,
+it's crucial to employ this technique only for large-scale programs that can't be
+manually vetted, ensuring optimal time management.
+
+#### Use-case
+
+For our chasten tool, incorporating these tests is paramount,
+especially as we plan to introduce numerous features throughout the term.
+It's crucial to ensure thorough coverage before releasing the software.
+If we decide to implement this testing methodology, we must
+be prepared to allocate substantial classroom time and personnel to it.
+
+# Week 3
+
+##SE3
+
+#### Summary
+
+
+
+
 
 
 
