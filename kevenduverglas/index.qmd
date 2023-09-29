@@ -120,6 +120,7 @@ It's crucial to ensure thorough coverage before releasing the software.
 If we decide to implement this testing methodology, we must
 be prepared to allocate substantial classroom time and personnel to it.
 
+
 # Week 3
 
 ## SE3
@@ -182,11 +183,53 @@ types of inputs, such as numbers or characters. The runner component plays
 a critical role in executing the target application with the generated inputs
 and monitoring its behavior.
 
+# Week 4
+
+## SE4
+
+#### Summary
+
+In software development, effective communication within your team is crucial.
+Team members are more likely to have solutions to issues because they work on
+the same project. However, various challenges can hinder this communication,
+such as fear of making mistakes, withholding code sections, and dealing with broken code.
+To address these challenges, the article proposes different communication solutions.
+The best approach involves comprehensive documentation paired with knowledgeable 
+individuals who can apply this information to specific problems. This ensures a
+wealth of information is available, and team members can get personalized help.
+Additionally, creating a comfortable environment where team members feel free
+to ask questions is crucial. Assigning mentors to new team members facilitates
+one-on-one interactions and promotes growth.
+
+#### Reflection
+
+This article holds significant importance for our work on the "Chasten" project.
+Effective communication is vital, especially given our limited time together each
+week. While we've managed reasonably well so far, there's room for improvement.
+Often, we struggle to make information widely available, particularly concerning
+individual pull requests and issues in the issue tracker. This can lead to various problems, such as
+information loss when team members are absent or leave, and the need for others
+to review the information, potentially resulting in redoing work. Another in need of improvement is organization
+of all the information that we have gathered, then it can be available to others
+that would like to add to what we have built.
+
+#### Use-Case
+
+In the Chasten project, we're taking practical steps to boost collaboration,
+drawing insights from the article on effective software development team communication. 
+We're focused on creating comprehensive project documentation, implementing a mentorship
+program or more leaders for the project, encouraging open communication, refining issue tracking, and centralizing project
+information. Our aim is to foster better knowledge sharing, reduce information gaps during
+transitions, streamline issue resolution, enhance information access, and empower team members to guide one another.
+Through these efforts, we seek to strengthen our teamwork and productivity in the Chasten project.
 
 
+## FB4
+
+#### Summary 
 
 
+#### Reflection
 
 
-
-
+#### Use-Case 
