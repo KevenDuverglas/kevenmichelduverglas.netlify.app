@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Keven’s blog were I talk about relay the information that I have learned over the reading. And will also provide my thoughts and opinions."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Professional Précis",
@@ -32,13 +39,20 @@
     "href": "index.html#fb2",
     "title": "Professional Précis",
     "section": "FB2",
-    "text": "FB2\n\nSummary\nTo achieve nearly perfect code coverage, we utilize a technique known as fuzzing. Fuzzing involves generating random characters to test various input scenarios. This method helps generate potential outcomes for different functions, like the provided example of the cgi_decode function. Through this, we determine the necessary inputs to achieve comprehensive code coverage in our tests.\n\n\nReflection\nImplementing such testing mechanisms proves invaluable for identifying maximum coverage using random fuzzing inputs. It’s particularly effective in discovering edge cases in extensive programs with myriad input possibilities. However, it’s a time-consuming approach. Hence, it’s crucial to employ this technique only for large-scale programs that can’t be manually vetted, ensuring optimal time management.\n\n\nUse-case\nFor our chasten tool, incorporating these tests is paramount, especially as we plan to introduce numerous features throughout the term. It’s crucial to ensure thorough coverage before releasing the software. If we decide to implement this testing methodology, we must be prepared to allocate substantial classroom time and personnel to it."
+    "text": "FB2\n\nSummary\nTo achieve nearly perfect code coverage, we utilize a technique known as fuzzing. Fuzzing involves generating random characters to test various input scenarios. This method helps generate potential outcomes for different functions, like the provided example of the cgi_decode function. Through this, we determine the necessary inputs to achieve comprehensive code coverage in our tests.\n\n\nReflection\nImplementing such testing mechanisms proves invaluable for identifying maximum coverage using random fuzzing inputs. It’s particularly effective in discovering edge cases in extensive programs with myriad input possibilities. However, it’s a time-consuming approach. Hence, it’s crucial to employ this technique only for large-scale programs that can’t be manually vetted, ensuring optimal time management.\n\n\nUse-Case\nFor our chasten tool, incorporating these tests is paramount, especially as we plan to introduce numerous features throughout the term. It’s crucial to ensure thorough coverage before releasing the software. If we decide to implement this testing methodology, we must be prepared to allocate substantial classroom time and personnel to it."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "Keven’s blog were I talk about relay the information that I have learned over the reading. And will also provide my thoughts and opinions."
+    "objectID": "index.html#se3",
+    "href": "index.html#se3",
+    "title": "Professional Précis",
+    "section": "SE3",
+    "text": "SE3\n\nSummary\nThis chapter delves into the infrastructure of a software engineering team, emphasizing the pivotal role of teamwork in achieving remarkable results and highlighting the significance of self-awareness within the team. The chapter discusses the trade-offs of working alone in software development, including prolonged struggles and delayed error detection. It also introduces the concept of collaborative nirvana, focusing on three pillars of social interaction: humility, respect, and trust. The action items suggested include regular team meetings and check-ins, peer mentoring and knowledge sharing, as well as the importance of acknowledging each team member’s strengths, celebrating success, and learning from failures.\n\n\nReflection\nThis chapter underscores the critical importance of collaboration and self-awareness in software engineering teams. It serves as a reminder that working in isolation can lead to challenges and hinder progress. Embracing humility, respect, and trust as guiding principles for social interaction can unlock the full potential of teamwork.\n\n\nUse-Case\nThe insights and recommendations from this chapter can be applied in various scenarios within a software engineering team. For instance, teams can implement regular meetings and check-ins to foster communication and collaboration. Peer mentoring and knowledge sharing can be encouraged to facilitate skill development and information exchange. Additionally, acknowledging the strengths of each team member, celebrating achievements, and using failures as opportunities for learning can help create a positive and productive team culture."
+  },
+  {
+    "objectID": "index.html#fb3",
+    "href": "index.html#fb3",
+    "title": "Professional Précis",
+    "section": "FB3",
+    "text": "FB3\n\nSummary\nFuzzing is a dynamic testing technique employed to discover defects by generating a wide array of random inputs and subjecting them relentlessly to a target application. The primary aim is to stress-test the software and unearth unexpected vulnerabilities. This chapter delves into the benefits of fuzzing, the roles of the fuzzer and runner components, and the advantages of applying fuzz testing to external programs.\n\n\nReflection\nThe concept of fuzzing is a powerful tool in the software testing arsenal. By inundating an application with diverse and often unpredictable inputs, fuzzing can reveal vulnerabilities that traditional testing methods might overlook. Understanding the mechanics of fuzzing, such as the fuzzer and runner components, allows testers to tailor their approach to the specific needs of the application.\n\n\nUse-Case\nFuzzing is an invaluable technique for identifying vulnerabilities in software. The benefits of fuzz testing include uncovering issues like buffer overflows, crashes, and security vulnerabilities. To implement fuzzing, the fuzzer component can be customized to generate various types of inputs, such as numbers or characters. The runner component plays a critical role in executing the target application with the generated inputs and monitoring its behavior."
   }
 ]

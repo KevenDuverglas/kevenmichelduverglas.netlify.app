@@ -116,7 +116,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#se2" id="toc-se2" class="nav-link" data-scroll-target="#se2">SE2</a></li>
   <li><a href="#fb2" id="toc-fb2" class="nav-link" data-scroll-target="#fb2">FB2</a></li>
   </ul></li>
-  <li><a href="#week-3" id="toc-week-3" class="nav-link" data-scroll-target="#week-3">Week 3</a></li>
+  <li><a href="#week-3" id="toc-week-3" class="nav-link" data-scroll-target="#week-3">Week 3</a>
+  <ul class="collapse">
+  <li><a href="#se3" id="toc-se3" class="nav-link" data-scroll-target="#se3">SE3</a></li>
+  <li><a href="#fb3" id="toc-fb3" class="nav-link" data-scroll-target="#fb3">FB3</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -206,18 +210,44 @@ ul.task-list li input[type="checkbox"] {
 <p>Implementing such testing mechanisms proves invaluable for identifying maximum coverage using random fuzzing inputs. It’s particularly effective in discovering edge cases in extensive programs with myriad input possibilities. However, it’s a time-consuming approach. Hence, it’s crucial to employ this technique only for large-scale programs that can’t be manually vetted, ensuring optimal time management.</p>
 </section>
 <section id="use-case-3" class="level4">
-<h4 class="anchored" data-anchor-id="use-case-3">Use-case</h4>
+<h4 class="anchored" data-anchor-id="use-case-3">Use-Case</h4>
 <p>For our chasten tool, incorporating these tests is paramount, especially as we plan to introduce numerous features throughout the term. It’s crucial to ensure thorough coverage before releasing the software. If we decide to implement this testing methodology, we must be prepared to allocate substantial classroom time and personnel to it.</p>
 </section>
 </section>
 </section>
 <section id="week-3" class="level1">
 <h1>Week 3</h1>
-<p>##SE3</p>
+<section id="se3" class="level2">
+<h2 class="anchored" data-anchor-id="se3">SE3</h2>
 <section id="summary-4" class="level4">
 <h4 class="anchored" data-anchor-id="summary-4">Summary</h4>
+<p>This chapter delves into the infrastructure of a software engineering team, emphasizing the pivotal role of teamwork in achieving remarkable results and highlighting the significance of self-awareness within the team. The chapter discusses the trade-offs of working alone in software development, including prolonged struggles and delayed error detection. It also introduces the concept of collaborative nirvana, focusing on three pillars of social interaction: humility, respect, and trust. The action items suggested include regular team meetings and check-ins, peer mentoring and knowledge sharing, as well as the importance of acknowledging each team member’s strengths, celebrating success, and learning from failures.</p>
+</section>
+<section id="reflection-4" class="level4">
+<h4 class="anchored" data-anchor-id="reflection-4">Reflection</h4>
+<p>This chapter underscores the critical importance of collaboration and self-awareness in software engineering teams. It serves as a reminder that working in isolation can lead to challenges and hinder progress. Embracing humility, respect, and trust as guiding principles for social interaction can unlock the full potential of teamwork.</p>
+</section>
+<section id="use-case-4" class="level4">
+<h4 class="anchored" data-anchor-id="use-case-4">Use-Case</h4>
+<p>The insights and recommendations from this chapter can be applied in various scenarios within a software engineering team. For instance, teams can implement regular meetings and check-ins to foster communication and collaboration. Peer mentoring and knowledge sharing can be encouraged to facilitate skill development and information exchange. Additionally, acknowledging the strengths of each team member, celebrating achievements, and using failures as opportunities for learning can help create a positive and productive team culture.</p>
+</section>
+</section>
+<section id="fb3" class="level2">
+<h2 class="anchored" data-anchor-id="fb3">FB3</h2>
+<section id="summary-5" class="level4">
+<h4 class="anchored" data-anchor-id="summary-5">Summary</h4>
+<p>Fuzzing is a dynamic testing technique employed to discover defects by generating a wide array of random inputs and subjecting them relentlessly to a target application. The primary aim is to stress-test the software and unearth unexpected vulnerabilities. This chapter delves into the benefits of fuzzing, the roles of the fuzzer and runner components, and the advantages of applying fuzz testing to external programs.</p>
+</section>
+<section id="reflection-5" class="level4">
+<h4 class="anchored" data-anchor-id="reflection-5">Reflection</h4>
+<p>The concept of fuzzing is a powerful tool in the software testing arsenal. By inundating an application with diverse and often unpredictable inputs, fuzzing can reveal vulnerabilities that traditional testing methods might overlook. Understanding the mechanics of fuzzing, such as the fuzzer and runner components, allows testers to tailor their approach to the specific needs of the application.</p>
+</section>
+<section id="use-case-5" class="level4">
+<h4 class="anchored" data-anchor-id="use-case-5">Use-Case</h4>
+<p>Fuzzing is an invaluable technique for identifying vulnerabilities in software. The benefits of fuzz testing include uncovering issues like buffer overflows, crashes, and security vulnerabilities. To implement fuzzing, the fuzzer component can be customized to generate various types of inputs, such as numbers or characters. The runner component plays a critical role in executing the target application with the generated inputs and monitoring its behavior.</p>
 
 
+</section>
 </section>
 </section>
 
