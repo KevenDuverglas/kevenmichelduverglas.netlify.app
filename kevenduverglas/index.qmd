@@ -228,8 +228,199 @@ Through these efforts, we seek to strengthen our teamwork and productivity in th
 
 #### Summary 
 
+The section on mutation analysis explores the creation of programs to rigorously test test cases.
+Ineffective testing can lead to seemingly complete test coverage while missing essential bug detection.
+To overcome this, mutation analysis programs are introduced to temporarily inject errors into the code,
+assessing the test cases' bug-finding capabilities. The article exemplifies this with a triangle
+classification program, standardizing the function through parsing and mutation,
+leading to the replacement of return statements with pass statements to provoke errors and gauge test case accuracy.
 
 #### Reflection
 
+This article underscores the importance of mutation analysis in the Chasten project,
+where accommodating diverse user inputs, including complex XPATH expressions, is
+paramount. Ensuring robust and comprehensive test coverage capable of identifying
+a wide array of errors is critical. Furthermore, considering the integration of external functions that simplify
+the intricacies of mutation analysis into the project's software development can
+markedly improve the code's overall quality.
 
-#### Use-Case 
+#### Use-Case
+
+In the context of the Chasten project, implementing mutation analysis is pivotal for bolstering test coverage
+and error detection across a spectrum of user inputs, including XPATH expressions.
+Embracing the methodologies outlined in this article empowers the project to enhance
+its testing procedures, thereby fortifying its ability to identify diverse types of
+errors. Furthermore, the integration of external functions that streamline
+the complexities of mutation analysis can expedite the software development process
+ ultimately leading to higher-quality code.
+
+# Week 5
+
+## SE5
+
+#### Summary
+
+This chapter delves into Google's shortcomings in achieving an inclusive
+standard and offers a roadmap for future rectification as a collective company
+endeavor. Google's software engineer demographics don't mirror their user base,
+leading to the infusion of biases into their projects, like facial recognition
+software. To address this, the Value Versus Outcomes section presents key
+considerations: evaluating the composition of the product development team in
+relation to the end users, designing for the most challenged user to enhance accessibility,
+scrutinizing data for success, and identifying and preventing future failure points. These
+guidelines amalgamate into a call for software engineers to be part of the solution rather thanthe problem, ultimately
+fostering equity in their endeavors. The chapter also provides reflections and suggestions for further action.
+
+#### Reflection
+
+This chapter underscores the importance of inclusive workplaces
+for productivity and bias reduction, with software engineers as
+key agents of change. It emphasizes the need to address bias, shift from
+"building for" to "building with" everyone, and tackle systemic tech industry
+issues through psychological safety, multicultural competence, and professional
+growth. The chapter highlights the significance of engineers
+comprehending their products' impact on diverse users,
+emphasizing the value of inclusive work environments and ongoing
+learning for personal and career development.
+
+#### Use-Case
+
+
+This chapter underscores the importance of inclusivity in product development,
+emphasizing a user-centric approach and collaboration with diversity experts.
+While it may not directly apply to our current project, it's vital for workforce
+readiness. For Chasten's future users, particularly
+Allegheny College students, we must prioritize code readability and
+use our experience to improve accessibility for a wider audience.
+
+## FB5
+
+#### Summary
+
+When fuzzing programs that accept more than just random inputs,
+like website URLs, it's crucial to adapt our fuzzer to produce
+realistic yet incorrect URLs for testing functions related to URLs.
+Attempting to test such functions with entirely random inputs could
+take years to stumble upon a correct HTTP URL. An effective strategy
+involves taking valid inputs and strategically altering specific
+characters to create URLs that are incorrect but closely resemble
+the correct format. This approach allows us to generate a wide
+array of input variations. When these diverse inputs are combined
+with a runner function, they ensure comprehensive coverage of every
+line within the function under test. Consolidating these techniques
+into a mutation fuzzing function enables the integration of knowledge
+and methods from mutation analysis, code coverage analysis, and fuzzing
+into a unified and effective testing approach.
+
+#### Reflection
+
+This article explores the integration of previously acquired knowledge
+into a single function known as mutation fuzzing. The importance of
+incorporating these ideas into test cases is emphasized to ensure
+comprehensive coverage of various XPATH expressions. Mutation fuzzing
+allows for the rapid application of these techniques on a large scale,
+enabling the implementation of tests that would be impractical to conduct 
+manually.
+
+#### Use-case
+
+Mutation fuzzing serves as a valuable tool in software testing and security analysis,
+particularly for applications relying on XPATH expressions. It automates the generation
+of diverse inputs, enabling systematic evaluation and rapid identification of vulnerabilities,
+ensuring software robustness. Its scalability and efficiency make it an indispensable
+resource for uncovering edge cases and enhancing security.
+
+# Week 6
+
+## SE6
+
+#### Summary
+
+The section from "Software Engineering at Google" stresses the importance of leadership
+within any team, especially in software development contexts. It acknowledges the phenomenon
+where engineers, often reluctantly, assume managerial roles. The dual mastery of software
+engineering skills and team management is crucial for success. A key focus is on the subtleties
+of effective management, advocating against micromanagement. Instead, a successful manager
+should aim to create a supportive work environment, providing flexibility and removing impediments
+to streamline workflows. The importance of maintaining a professional yet approachable relationship
+with team members is also emphasized, which helps in making tough decisions without compromising
+team dynamics. The chapter crystallizes its guidance into three fundamental principles for leadership:
+Humility, Trust, and Respect. These principles ensure a leader is supportive and reliable, allowing team
+members to focus on their tasks without undue concern about managerial issues.
+
+#### Reflection & Use-case
+
+In our own setting, the traditional hierarchical structure of managers and subordinates is absent.
+However, we often find ourselves in leadership roles within peer-driven projects, particularly when we
+possess specialized knowledge. In these scenarios, it's important to apply the principles of respect and
+humility. Our approach should be one of collaboration and learning, rather than asserting dominance or
+power. This ensures a more harmonious and productive environment, where knowledge transfer is effective
+and team dynamics are positive. By embracing these values, we can foster a healthy and efficient workspace,
+even in the absence of formal leadership roles.
+
+## FB6
+
+#### Summary
+
+This chapter focuses on the interplay between formal languages, universal grammars,
+and their role in generating inputs, segueing into a detailed exploration of grammars.
+It emphasizes the significance of grammars in not only constructing programming languages
+but also in formulating structured inputs for testing. Defining a grammar allows for the
+creation of a function that generates random, yet structurally sound inputs, facilitating
+extensive code testing. Nevertheless, this method has its boundaries. To optimize its utility,
+\mutating these inputs is suggested, providing a more thorough examination of the code's
+constraints and capabilities.
+
+#### Reflection
+
+The application of grammars in this context was an unexpected revelation to me,
+having not considered this possibility when I initially encountered the concept.
+The deeper I delve into the Fuzzing Book, the more it resembles assembling pieces
+of a puzzle, each piece contributing to the creation of a robust testing suite.
+
+#### Use-case 
+
+As we venture into our new project, it seems opportune to integrate some of these insights.
+Implementing these grammatical structures to generate test inputs could enhance our testing
+process, ensuring a more robust and comprehensive evaluation of our code. It's an intriguing
+approach worth exploring to strengthen our project's overall quality and reliability.
+
+# Week 7
+
+## SE7
+
+#### Summary
+
+This chapter highlights
+strategies like identifying limiting factors, making informed trade-offs, and iterating ideas
+to strike a balance. A crucial goal is to develop a self-driving team, reducing the 'bus factor'
+by creating subteams for diverse problem-solving. Additionally, the chapter advises on scaling
+team sizes based on project demands, ensuring neither team members nor leaders are overwhelmed.
+
+#### Reflection & Use-case
+
+From this chapter, the standout insight is that effective management comprises observation
+and listening, with just a little being critical adjustments. This principle discourages micromanagement
+and promotes responsive leadership based on team feedback, fostering efficiency and autonomy.
+However, its direct relevance to our Chasten project is limited, as we operate without a set leader,
+assigning tasks within small groups for self-driven progress. While the chapter targets environments
+with clear leadership hierarchies, its emphasis on minimal but meaningful interventions and team
+autonomy can still offer useful insights for our collaborative efforts in developing the Chasten tool.
+
+## FB7
+
+#### Summary
+
+The chapter addresses the inefficiencies of the simple_grammar_fuzzer in the Fuzzing Book, highlighting
+its poor time complexity with large inputs and frequent inaccuracies in symbol or parenthesis counts.
+To remedy this, the introduction of deviation trees is proposed. These trees track the pathways of grammar
+expansions, enabling the monitoring of each grammar statement's cost. This methodology empowers us to preset
+expansion limits and determine when to terminate the grammar, effectively controlling input size and reducing evaluation time.
+
+#### Reflection & Action
+
+Incorporating deviation trees revolutionizes grammar fuzzing by imposing input size constraints,
+transforming it into a practical testing method. Without such limits, grammar fuzzing risks becoming
+an endless process with increasingly large inputs, leading to significant time inefficiencies. This
+innovation ensures that inputs remain manageable in length and can be processed within reasonable
+timeframes, greatly enhancing the utility and applicability of this testing technique.
