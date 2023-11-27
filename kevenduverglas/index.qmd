@@ -424,3 +424,87 @@ transforming it into a practical testing method. Without such limits, grammar fu
 an endless process with increasingly large inputs, leading to significant time inefficiencies. This
 innovation ensures that inputs remain manageable in length and can be processed within reasonable
 timeframes, greatly enhancing the utility and applicability of this testing technique.
+
+# Week 8
+
+## SE8
+
+#### Summary
+
+In this section of Software Engineering at Google, the focus is on the strategic application of
+rules to optimize code quality. Rules serve as essential guidelines, distinguishing what should
+be promoted and what should be avoided. These guidelines also prompt companies to reflect on their
+core values, enabling the incorporation of these principles into the guidance provided to their workforce.
+A well-defined set of rules is imperative to prevent codebases from becoming chaotic and lacking a discernible pattern.
+Standardizing the execution of projects and managing a company becomes achievable by creating a style guide. This ensures
+alignment across the organization, fostering a unified approach to program implementation.
+
+Ultimately, establishing robust rules that are easy to follow while maintaining a consistent set of policies
+within the workplace is crucial. These rules form the foundation for the team's approach to future projects,
+ensuring steady production over time.
+
+#### Action & Reflection
+
+This section resonates with our Chasten project, as our team frequently experiences challenges in achieving consensus.
+Having a concise set of rules could greatly benefit us. For example, implementing rules related to the approval of pull
+requests and workflow standards could lead to a more consistent and efficient team. Such changes would unify our team,
+streamlining the collaborative process in team-based software engineering without the need for laborious efforts to seek
+team members' assistance in specific aspects.
+
+## FB8
+
+#### Summary
+
+In specific scenarios of fuzz testing, relying solely on a grammar fuzzer may not suffice due to the inherent need
+for rules in input generation. To address this, employing a parser becomes essential to transform a string input
+into a derivation tree. A Predicate Expression Grammar (PEG) parser serves this purpose, parsing until it identifies
+a rule that aligns with its query. An example is provided below:
+
+```python
+class PEGParser(Parser):
+    def parse_prefix(self, text):
+        cursor, tree = self.unify_key(self.start_symbol(), text, 0)
+        return cursor, [tree]
+```
+
+While PEGParser is effective for finding a single match, in many cases, it is desirable to identify all matches,
+necessitating a Context-Free Grammar (CFG) parser. This type of parser allows for matching all parts of an input
+during parsing, as illustrated by the following example:
+
+```
+class CFGParser(CGFParser):
+    def parse(self, text):
+        cursor, states = self.parse_prefix(text)
+        start = next((s for s in states if s.finished()), None)
+
+        if cursor < len(text) or not start:
+            raise SyntaxError("at " + repr(text[cursor:]))
+
+        forest = self.parse_forest(self.table, start)
+        for tree in self.extract_trees(forest):
+            yield self.prune_tree(tree)
+```
+
+#### Action & Reflection
+
+These parsers represent a crucial advancement in creating derivation trees from specific seeded inputs.
+This capability enables the identification of necessary grammars for simulating inputs in future fuzz testing,
+automating the input-taking process for subsequent fuzzing. In the context of Chasten, integrating PEG and CFG
+parsers enhances the tool's performance by facilitating the
+importation and seamless implementation of these parsers. These parsers contribute to the creation of concise,
+branched grammars, leading to faster grammar processing times. The incorporation of more complex parsers allows
+for the composition of grammars with finer details, without compromising external structures or the program's
+overall significance.
+
+## SE9
+
+#### Summary
+
+These parsers represent a crucial advancement in creating derivation trees from specific seeded inputs. This
+capability enables the identification of necessary grammars for simulating inputs in future fuzz testing,
+automating the input-taking process for subsequent fuzzing.
+In the context of Chasten, integrating PEG and CFG parsers enhances the tool's performance by facilitating
+the importation and seamless implementation of these parsers. These parsers contribute to the creation of
+concise, branched grammars, leading to faster grammar processing times. The incorporation of more complex parsers
+allows for the composition of grammars with finer details,
+without compromising external structures or the program's overall significance.

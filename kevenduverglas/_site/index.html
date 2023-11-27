@@ -136,6 +136,11 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#se6" id="toc-se6" class="nav-link" data-scroll-target="#se6">SE6</a></li>
   <li><a href="#fb6" id="toc-fb6" class="nav-link" data-scroll-target="#fb6">FB6</a></li>
   </ul></li>
+  <li><a href="#week-7" id="toc-week-7" class="nav-link" data-scroll-target="#week-7">Week 7</a>
+  <ul class="collapse">
+  <li><a href="#se7" id="toc-se7" class="nav-link" data-scroll-target="#se7">SE7</a></li>
+  <li><a href="#fb7" id="toc-fb7" class="nav-link" data-scroll-target="#fb7">FB7</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -337,8 +342,8 @@ ul.task-list li input[type="checkbox"] {
 <h4 class="anchored" data-anchor-id="summary-10">Summary</h4>
 <p>The section from “Software Engineering at Google” stresses the importance of leadership within any team, especially in software development contexts. It acknowledges the phenomenon where engineers, often reluctantly, assume managerial roles. The dual mastery of software engineering skills and team management is crucial for success. A key focus is on the subtleties of effective management, advocating against micromanagement. Instead, a successful manager should aim to create a supportive work environment, providing flexibility and removing impediments to streamline workflows. The importance of maintaining a professional yet approachable relationship with team members is also emphasized, which helps in making tough decisions without compromising team dynamics. The chapter crystallizes its guidance into three fundamental principles for leadership: Humility, Trust, and Respect. These principles ensure a leader is supportive and reliable, allowing team members to focus on their tasks without undue concern about managerial issues.</p>
 </section>
-<section id="reflection-action" class="level4">
-<h4 class="anchored" data-anchor-id="reflection-action">Reflection &amp; Action</h4>
+<section id="reflection-use-case" class="level4">
+<h4 class="anchored" data-anchor-id="reflection-use-case">Reflection &amp; Use-case</h4>
 <p>In our own setting, the traditional hierarchical structure of managers and subordinates is absent. However, we often find ourselves in leadership roles within peer-driven projects, particularly when we possess specialized knowledge. In these scenarios, it’s important to apply the principles of respect and humility. Our approach should be one of collaboration and learning, rather than asserting dominance or power. This ensures a more harmonious and productive environment, where knowledge transfer is effective and team dynamics are positive. By embracing these values, we can foster a healthy and efficient workspace, even in the absence of formal leadership roles.</p>
 </section>
 </section>
@@ -352,9 +357,34 @@ ul.task-list li input[type="checkbox"] {
 <h4 class="anchored" data-anchor-id="reflection-10">Reflection</h4>
 <p>The application of grammars in this context was an unexpected revelation to me, having not considered this possibility when I initially encountered the concept. The deeper I delve into the Fuzzing Book, the more it resembles assembling pieces of a puzzle, each piece contributing to the creation of a robust testing suite.</p>
 </section>
-<section id="action" class="level4">
-<h4 class="anchored" data-anchor-id="action">Action</h4>
+<section id="use-case-10" class="level4">
+<h4 class="anchored" data-anchor-id="use-case-10">Use-case</h4>
 <p>As we venture into our new project, it seems opportune to integrate some of these insights. Implementing these grammatical structures to generate test inputs could enhance our testing process, ensuring a more robust and comprehensive evaluation of our code. It’s an intriguing approach worth exploring to strengthen our project’s overall quality and reliability.</p>
+</section>
+</section>
+</section>
+<section id="week-7" class="level1">
+<h1>Week 7</h1>
+<section id="se7" class="level2">
+<h2 class="anchored" data-anchor-id="se7">SE7</h2>
+<section id="summary-12" class="level4">
+<h4 class="anchored" data-anchor-id="summary-12">Summary</h4>
+<p>This chapter highlights strategies like identifying limiting factors, making informed trade-offs, and iterating ideas to strike a balance. A crucial goal is to develop a self-driving team, reducing the ‘bus factor’ by creating subteams for diverse problem-solving. Additionally, the chapter advises on scaling team sizes based on project demands, ensuring neither team members nor leaders are overwhelmed.</p>
+</section>
+<section id="reflection-use-case-1" class="level4">
+<h4 class="anchored" data-anchor-id="reflection-use-case-1">Reflection &amp; Use-case</h4>
+<p>From this chapter, the standout insight is that effective management comprises observation and listening, with just a little being critical adjustments. This principle discourages micromanagement and promotes responsive leadership based on team feedback, fostering efficiency and autonomy. However, its direct relevance to our Chasten project is limited, as we operate without a set leader, assigning tasks within small groups for self-driven progress. While the chapter targets environments with clear leadership hierarchies, its emphasis on minimal but meaningful interventions and team autonomy can still offer useful insights for our collaborative efforts in developing the Chasten tool.</p>
+</section>
+</section>
+<section id="fb7" class="level2">
+<h2 class="anchored" data-anchor-id="fb7">FB7</h2>
+<section id="summary-13" class="level4">
+<h4 class="anchored" data-anchor-id="summary-13">Summary</h4>
+<p>The chapter addresses the inefficiencies of the simple_grammar_fuzzer in the Fuzzing Book, highlighting its poor time complexity with large inputs and frequent inaccuracies in symbol or parenthesis counts. To remedy this, the introduction of deviation trees is proposed. These trees track the pathways of grammar expansions, enabling the monitoring of each grammar statement’s cost. This methodology empowers us to preset expansion limits and determine when to terminate the grammar, effectively controlling input size and reducing evaluation time.</p>
+</section>
+<section id="reflection-action" class="level4">
+<h4 class="anchored" data-anchor-id="reflection-action">Reflection &amp; Action</h4>
+<p>Incorporating deviation trees revolutionizes grammar fuzzing by imposing input size constraints, transforming it into a practical testing method. Without such limits, grammar fuzzing risks becoming an endless process with increasingly large inputs, leading to significant time inefficiencies. This innovation ensures that inputs remain manageable in length and can be processed within reasonable timeframes, greatly enhancing the utility and applicability of this testing technique.</p>
 
 
 </section>
