@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -140,6 +174,34 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#se7" id="toc-se7" class="nav-link" data-scroll-target="#se7">SE7</a></li>
   <li><a href="#fb7" id="toc-fb7" class="nav-link" data-scroll-target="#fb7">FB7</a></li>
+  </ul></li>
+  <li><a href="#week-8" id="toc-week-8" class="nav-link" data-scroll-target="#week-8">Week 8</a>
+  <ul class="collapse">
+  <li><a href="#se8" id="toc-se8" class="nav-link" data-scroll-target="#se8">SE8</a></li>
+  <li><a href="#fb8" id="toc-fb8" class="nav-link" data-scroll-target="#fb8">FB8</a></li>
+  <li><a href="#se9" id="toc-se9" class="nav-link" data-scroll-target="#se9">SE9</a></li>
+  <li><a href="#fb9" id="toc-fb9" class="nav-link" data-scroll-target="#fb9">FB9</a></li>
+  </ul></li>
+  <li><a href="#week-9" id="toc-week-9" class="nav-link" data-scroll-target="#week-9">Week 9</a>
+  <ul class="collapse">
+  <li><a href="#se10" id="toc-se10" class="nav-link" data-scroll-target="#se10">SE10</a></li>
+  <li><a href="#db1" id="toc-db1" class="nav-link" data-scroll-target="#db1">DB1</a></li>
+  </ul></li>
+  <li><a href="#week-10" id="toc-week-10" class="nav-link" data-scroll-target="#week-10">Week 10</a>
+  <ul class="collapse">
+  <li><a href="#se11" id="toc-se11" class="nav-link" data-scroll-target="#se11">SE11</a></li>
+  <li><a href="#db2" id="toc-db2" class="nav-link" data-scroll-target="#db2">DB2</a></li>
+  </ul></li>
+  <li><a href="#week-11" id="toc-week-11" class="nav-link" data-scroll-target="#week-11">Week 11</a>
+  <ul class="collapse">
+  <li><a href="#se12" id="toc-se12" class="nav-link" data-scroll-target="#se12">SE12</a></li>
+  <li><a href="#db3" id="toc-db3" class="nav-link" data-scroll-target="#db3">DB3</a></li>
+  </ul></li>
+  <li><a href="#week-12" id="toc-week-12" class="nav-link" data-scroll-target="#week-12">Week 12</a>
+  <ul class="collapse">
+  <li><a href="#db4" id="toc-db4" class="nav-link" data-scroll-target="#db4">DB4</a></li>
+  <li><a href="#summary-24" id="toc-summary-24" class="nav-link" data-scroll-target="#summary-24">Summary</a></li>
+  <li><a href="#action-reflection-10" id="toc-action-reflection-10" class="nav-link" data-scroll-target="#action-reflection-10">Action &amp; Reflection</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -385,9 +447,212 @@ ul.task-list li input[type="checkbox"] {
 <section id="reflection-action" class="level4">
 <h4 class="anchored" data-anchor-id="reflection-action">Reflection &amp; Action</h4>
 <p>Incorporating deviation trees revolutionizes grammar fuzzing by imposing input size constraints, transforming it into a practical testing method. Without such limits, grammar fuzzing risks becoming an endless process with increasingly large inputs, leading to significant time inefficiencies. This innovation ensures that inputs remain manageable in length and can be processed within reasonable timeframes, greatly enhancing the utility and applicability of this testing technique.</p>
-
-
 </section>
+</section>
+</section>
+<section id="week-8" class="level1">
+<h1>Week 8</h1>
+<section id="se8" class="level2">
+<h2 class="anchored" data-anchor-id="se8">SE8</h2>
+<section id="summary-14" class="level4">
+<h4 class="anchored" data-anchor-id="summary-14">Summary</h4>
+<p>In this section of Software Engineering at Google, the focus is on the strategic application of rules to optimize code quality. Rules serve as essential guidelines, distinguishing what should be promoted and what should be avoided. These guidelines also prompt companies to reflect on their core values, enabling the incorporation of these principles into the guidance provided to their workforce. A well-defined set of rules is imperative to prevent codebases from becoming chaotic and lacking a discernible pattern. Standardizing the execution of projects and managing a company becomes achievable by creating a style guide. This ensures alignment across the organization, fostering a unified approach to program implementation.</p>
+<p>Ultimately, establishing robust rules that are easy to follow while maintaining a consistent set of policies within the workplace is crucial. These rules form the foundation for the team’s approach to future projects, ensuring steady production over time.</p>
+</section>
+<section id="action-reflection" class="level4">
+<h4 class="anchored" data-anchor-id="action-reflection">Action &amp; Reflection</h4>
+<p>This section resonates with our Chasten project, as our team frequently experiences challenges in achieving consensus. Having a concise set of rules could greatly benefit us. For example, implementing rules related to the approval of pull requests and workflow standards could lead to a more consistent and efficient team. Such changes would unify our team, streamlining the collaborative process in team-based software engineering without the need for laborious efforts to seek team members’ assistance in specific aspects.</p>
+</section>
+</section>
+<section id="fb8" class="level2">
+<h2 class="anchored" data-anchor-id="fb8">FB8</h2>
+<section id="summary-15" class="level4">
+<h4 class="anchored" data-anchor-id="summary-15">Summary</h4>
+<p>In specific scenarios of fuzz testing, relying solely on a grammar fuzzer may not suffice due to the inherent need for rules in input generation. To address this, employing a parser becomes essential to transform a string input into a derivation tree. A Predicate Expression Grammar (PEG) parser serves this purpose, parsing until it identifies a rule that aligns with its query. An example is provided below:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> PEGParser(Parser):</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> parse_prefix(<span class="va">self</span>, text):</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>        cursor, tree <span class="op">=</span> <span class="va">self</span>.unify_key(<span class="va">self</span>.start_symbol(), text, <span class="dv">0</span>)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> cursor, [tree]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>While PEGParser is effective for finding a single match, in many cases, it is desirable to identify all matches, necessitating a Context-Free Grammar (CFG) parser. This type of parser allows for matching all parts of an input during parsing, as illustrated by the following example:</p>
+<pre><code>class CFGParser(CGFParser):
+    def parse(self, text):
+        cursor, states = self.parse_prefix(text)
+        start = next((s for s in states if s.finished()), None)
+
+        if cursor &lt; len(text) or not start:
+            raise SyntaxError("at " + repr(text[cursor:]))
+
+        forest = self.parse_forest(self.table, start)
+        for tree in self.extract_trees(forest):
+            yield self.prune_tree(tree)</code></pre>
+</section>
+<section id="action-reflection-1" class="level4">
+<h4 class="anchored" data-anchor-id="action-reflection-1">Action &amp; Reflection</h4>
+<p>These parsers represent a crucial advancement in creating derivation trees from specific seeded inputs. This capability enables the identification of necessary grammars for simulating inputs in future fuzz testing, automating the input-taking process for subsequent fuzzing. In the context of Chasten, integrating PEG and CFG parsers enhances the tool’s performance by facilitating the importation and seamless implementation of these parsers. These parsers contribute to the creation of concise, branched grammars, leading to faster grammar processing times. The incorporation of more complex parsers allows for the composition of grammars with finer details, without compromising external structures or the program’s overall significance.</p>
+</section>
+</section>
+<section id="se9" class="level2">
+<h2 class="anchored" data-anchor-id="se9">SE9</h2>
+<section id="summary-16" class="level4">
+<h4 class="anchored" data-anchor-id="summary-16">Summary</h4>
+<p>This segment of Google’s Software Engineering focuses on the pre-merger evaluation of code for the main product. It encompasses insights into the advantages, recommendations, and overall procedures employed by Google to optimize the efficiency and effectiveness of code reviews. Google employs a meticulous approach to guarantee correctness, consistency, extensive knowledge sharing among developers, and comprehensive change tracking. While this process incurs costs, it ensures that the codebase adheres to Google’s high standards of consistency.</p>
+<p>However, the journey of code review is not always seamless. Consequently, this section provides valuable tips for conducting reviews effectively. Essential to this is maintaining a courteous and professional communication style to facilitate timely and dispute-free code reviews. Code reviewers are advised to communicate their review timelines promptly, ensuring that others are not left waiting. Professionalism becomes crucial when disagreements arise between a developer and a reviewer regarding a specific section of code; finding common ground on necessary changes is essential. Emphasizing the importance of modest changes is another key point, preventing reviewers from feeling overwhelmed and facilitating swift reviews. Crafting informative commit messages and change descriptions proves instrumental in aiding reviewers’ understanding of the nature of the changes. Additionally, prudent resource usage is stressed, advocating for a single reviewer and the automation of tasks wherever possible.</p>
+</section>
+<section id="action-reflection-2" class="level4">
+<h4 class="anchored" data-anchor-id="action-reflection-2">Action &amp; Reflection</h4>
+<p>This section highlights crucial insights into efficient code review practices. One notable aspect that caught my attention pertains to the number of reviewers involved in the process. In our current project, we maintain a minimum of 3 reviewers, and at times, this number escalates to 5 for a single change. This approach is flagged as inefficient in the article, emphasizing that often, reviewers merely skim through the code to verify functionality rather than conducting a thorough examination. Consequently, multiple individuals spend time perfunctorily reviewing code that could be adequately handled by a single person. Addressing this inefficiency involves considering a shift to single-person reviews, which not only streamlines the process but also holds that individual accountable for timely and accurate reviews.</p>
+<p>Another noteworthy point discusses the importance of precise change descriptions, an area where our team appears to be lacking. Specifically, commit messages and timing are identified as potential weaknesses. The suggestion is to increase the frequency of commits to showcase each incremental change to specific code segments. This practice enables reviewers to track the evolution and improvement of the change step by step, fostering a clearer understanding of the development process. Implementing these adjustments could contribute to a more streamlined and accountable code review process within our team.</p>
+</section>
+</section>
+<section id="fb9" class="level2">
+<h2 class="anchored" data-anchor-id="fb9">FB9</h2>
+<section id="summary-17" class="level4">
+<h4 class="anchored" data-anchor-id="summary-17">Summary</h4>
+<p>When employing tests to intentionally induce code failures or crashes, it’s crucial to grasp the underlying reasons for the failure and understand the conditions that trigger it. Mere awareness of a broken state isn’t sufficient; one must delve into the hows and whys of the issue. While running tests, pinpointing the specific segments of the code responsible for problems can be challenging. A fuzzer or mutator-based approach might identify the existence of an issue but often falls short in providing insights into the reasons behind the problem.</p>
+<p>To tackle this, manual exploration can be undertaken, where testing continues until the problem is uncovered. Alternatively, a technique known as Delta Debugging can be applied. This method takes the inputs responsible for breaking the test or build and employs a binary search algorithm-like approach. It systematically removes parts of the input to determine if the issue persists or is resolved. Delta Debugging aids in identifying the causes of a bug or defect, streamlining more efficient and targeted fixes if necessary.</p>
+<p>An illustrative example of Delta Debugging is found in the <a href="https://www.fuzzingbook.org/">Fuzzingbook</a>:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> DeltaDebuggingReducer(CachingReducer):</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Reduce inputs using delta debugging."""</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="bu">reduce</span>(<span class="va">self</span>, inp: <span class="bu">str</span>) <span class="op">-&gt;</span> <span class="bu">str</span>:</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>        <span class="co">"""Reduce input `inp` using delta debugging. Return reduced input."""</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.reset()</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>        <span class="cf">assert</span> <span class="va">self</span>.test(inp) <span class="op">!=</span> Runner.PASS</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>        n <span class="op">=</span> <span class="dv">2</span>     <span class="co"># Initial granularity</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>        <span class="cf">while</span> <span class="bu">len</span>(inp) <span class="op">&gt;=</span> <span class="dv">2</span>:</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>            start <span class="op">=</span> <span class="fl">0.0</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>            subset_length <span class="op">=</span> <span class="bu">len</span>(inp) <span class="op">/</span> n</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>            some_complement_is_failing <span class="op">=</span> <span class="va">False</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>            <span class="cf">while</span> start <span class="op">&lt;</span> <span class="bu">len</span>(inp):</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>                complement <span class="op">=</span> inp[:<span class="bu">int</span>(start)] <span class="op">+</span> <span class="op">\</span></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>                    inp[<span class="bu">int</span>(start <span class="op">+</span> subset_length):]</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> <span class="va">self</span>.test(complement) <span class="op">==</span> Runner.FAIL:</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>                    inp <span class="op">=</span> complement</span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>                    n <span class="op">=</span> <span class="bu">max</span>(n <span class="op">-</span> <span class="dv">1</span>, <span class="dv">2</span>)</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>                    some_complement_is_failing <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">break</span></span>
+<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>                start <span class="op">+=</span> subset_length</span>
+<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="kw">not</span> some_complement_is_failing:</span>
+<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>                <span class="cf">if</span> n <span class="op">==</span> <span class="bu">len</span>(inp):</span>
+<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>                    <span class="cf">break</span></span>
+<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a>                n <span class="op">=</span> <span class="bu">min</span>(n <span class="op">*</span> <span class="dv">2</span>, <span class="bu">len</span>(inp))</span>
+<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> inp</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This code takes an input, tests it, and iteratively reduces it until it is minimized to a single character. This approach enhances the specificity and usefulness of debugging outputs, providing better insight into the code’s behavior during failures.</p>
+</section>
+<section id="action-reflection-3" class="level4">
+<h4 class="anchored" data-anchor-id="action-reflection-3">Action &amp; Reflection</h4>
+<p>This concept seems somewhat beneficial, but considering the specific context in which we would apply it, I find that implementing this idea might involve more effort than the relatively minimal gain it offers. While it provides assistance, we’re not dealing with highly intricate inputs, and the setup time for such a concept may outweigh the benefits compared to manually resolving issues. Nevertheless, the core concept of reduction itself holds significance in debugging. It serves as an effective approach to identify problems and often contributes to a deeper understanding of the code. However, the automated implementation of this concept appears overly complex and may not be worth the effort for projects of the scale we are currently working on.</p>
+</section>
+</section>
+</section>
+<section id="week-9" class="level1">
+<h1>Week 9</h1>
+<section id="se10" class="level2">
+<h2 class="anchored" data-anchor-id="se10">SE10</h2>
+<section id="summary-18" class="level4">
+<h4 class="anchored" data-anchor-id="summary-18">Summary</h4>
+<p>This section of Google’s Software Engineering underscores the crucial role of documentation in enhancing code usage and maintenance. Documentation goes beyond code operations, encompassing descriptive notes and tutorials to improve overall readability. While its benefits may not be immediately apparent, neglecting or delaying documentation can lead to confusion for future developers. Google emphasizes treating documentation like code, with regular maintenance and adherence to a consistent style. Assigning owners to each documentation section ensures ongoing clarity and long-term viability.</p>
+<p>Understanding the target audience is vital in documentation creation, considering factors like the audience’s level of development experience and whether documentation is for internal developers or the general public. The choice of documentation style is equally important, ranging from reference documentation and design documents to in-depth tutorials and conceptual documentation. Ensuring documentation stays current with regular updates is key to its continued effectiveness, aiding users in comprehending all aspects of the tool. In conclusion, while creating documentation requires initial effort, its long-term benefits in facilitating code understanding and usage make it a worthwhile endeavor.</p>
+</section>
+<section id="action-reflection-4" class="level4">
+<h4 class="anchored" data-anchor-id="action-reflection-4">Action &amp; Reflection</h4>
+<p>Within our Cellveyor team, our documentation efforts have room for improvement. While we’ve been diligent in commenting on the project’s work and incorporating reference documentation within the code, we haven’t established a dedicated wiki for comprehensive documentation, including tutorials on how Cellveyor operates and reference documentation detailing the various inputs for its commands. This aspect is certainly an area where enhancement is possible, but I believe prioritizing it should come after addressing the remaining issues with the tool itself.</p>
+</section>
+</section>
+<section id="db1" class="level2">
+<h2 class="anchored" data-anchor-id="db1">DB1</h2>
+<section id="summary-19" class="level4">
+<h4 class="anchored" data-anchor-id="summary-19">Summary</h4>
+<p>In the inaugural section of the Debugging Book, foundational principles of troubleshooting malfunctioning functions are introduced. The discussion starts by highlighting counterproductive coding practices, such as excessive print statements, arbitrary changes, and hardcoded inputs. Instead, the emphasis is on a meticulous code review approach, seeking to identify root causes rather than opting for temporary fixes. Effectively isolating specific issues from broader exceptions entails scrutinizing generalized errors within a function and involves formulating, adjusting, and challenging hypotheses about the program’s malfunction. Running tests based on these hypotheses aids in identifying correlated issues that need resolution. Once these issues are found, updating the failed test cases enhances coverage and prevents potential errors in future updates. Maintaining a comprehensive log of these steps facilitates the recall of previously explored ideas and actions.</p>
+</section>
+<section id="action-reflection-5" class="level4">
+<h4 class="anchored" data-anchor-id="action-reflection-5">Action &amp; Reflection</h4>
+<p>While I already incorporate many of these bug-fixing steps into my process, a significant insight from this article was the emphasis on creating a hypothesis for the reasons behind certain function failures. The suggestion of adopting a higher level of documentation and a structured process for each specific issue appears highly beneficial, particularly when tackling complex problems. This approach not only aids in my individual problem-solving but also enhances collaboration when others join in to address the issue. In essence, incorporating a more detailed approach within our team’s issue-resolution strategy promises to yield substantial improvements.ured process for each specific issue appears highly beneficial, particularly when tackling complex problems. This approach not only aids in my individual problem-solving but also enhances collaboration when others join in to address the issue. In essence, incorporating a more detailed approach within our team’s issue-resolution strategy promises to yield substantial improvements.</p>
+</section>
+</section>
+</section>
+<section id="week-10" class="level1">
+<h1>Week 10</h1>
+<section id="se11" class="level2">
+<h2 class="anchored" data-anchor-id="se11">SE11</h2>
+<section id="summary-20" class="level4">
+<h4 class="anchored" data-anchor-id="summary-20">Summary</h4>
+<p>This section delves into testing practices at Google, highlighting the incorporation of automated programs to examine their extensive codebase for errors. Automated tests play a crucial role in ensuring code correctness, offering enhanced confidence and contributing to a smoother development process. When designing tests, Google considers their size and scope. Tests can be small, covering one process, medium, encompassing a single machine, or large, running on multiple machines or processes. Google advocates a majority of code coverage by narrower scope tests for more targeted and effective testing, as larger tests are often weaker and time-consuming.</p>
+</section>
+<section id="action-reflection-6" class="level4">
+<h4 class="anchored" data-anchor-id="action-reflection-6">Action &amp; Reflection</h4>
+<p>The testing concepts presented in this article are highly beneficial and can be effectively applied to our project, Cellveyor . While we have implemented both large and small-scale tests, the crucial insight here is the emphasis on not just expanding test coverage but also prioritizing the creation of high-quality tests capable of handling diverse inputs. A key approach to achieving this is by concentrating on essential functions and incorporating fuzzing tests, which provide a variety of example inputs to ensure robust testing.</p>
+</section>
+</section>
+<section id="db2" class="level2">
+<h2 class="anchored" data-anchor-id="db2">DB2</h2>
+<section id="summary-21" class="level4">
+<h4 class="anchored" data-anchor-id="summary-21">Summary</h4>
+<p>This section of the Debugging Book delves into the use of tracers for examining variable states throughout different sections of code. An illustrative example involves simple tracking of variables as the program progresses, enhancing debugging efforts by revealing interactions between various variables. A more detailed version demonstrates tracing at specific points in the code, offering insights into variable changes:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="cf">return</span> <span class="dv">255</span> remove_html_markup {<span class="st">'s'</span>: <span class="st">'abc'</span>, <span class="st">'tag'</span>: <span class="va">False</span>, <span class="st">'quote'</span>: <span class="va">False</span>, <span class="st">'out'</span>: <span class="st">'abc'</span>, <span class="st">'c'</span>: <span class="st">'c'</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This meticulous tracking approach reports each instance of variable changes, providing a comprehensive understanding of program behavior. While effective, this method can be time-consuming. To mitigate this, static code injection is introduced, injecting code selectively to trace only the necessary parts of the function, significantly reducing program runtime while maintaining detailed insights into variable changes:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="dv">243</span>     <span class="cf">for</span> c <span class="kw">in</span> s:</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>                                         <span class="co"># c = '/'</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="dv">244</span>         <span class="cf">assert</span> tag <span class="kw">or</span> <span class="kw">not</span> quote</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="dv">246</span>         <span class="cf">if</span> c <span class="op">==</span> <span class="st">'&lt;'</span> <span class="kw">and</span> <span class="kw">not</span> quote:</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>    ...</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="dv">255</span>     <span class="cf">return</span> out</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>remove_html_markup() returns <span class="st">'x'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="action-reflection-7" class="level4">
+<h4 class="anchored" data-anchor-id="action-reflection-7">Action &amp; Reflection</h4>
+<p>Tracing a program proves to be an effective method for monitoring the outputs of individual functions, facilitating the debugging process by providing insights into how variables interact. However, consistently running a tracer for every output can be inefficient due to the time required to track all variables. Implementing tracers selectively into our project, particularly when errors occur, would be highly beneficial in optimizing the debugging process.</p>
+</section>
+</section>
+</section>
+<section id="week-11" class="level1">
+<h1>Week 11</h1>
+<section id="se12" class="level2">
+<h2 class="anchored" data-anchor-id="se12">SE12</h2>
+<section id="summary-22" class="level4">
+<h4 class="anchored" data-anchor-id="summary-22">Summary</h4>
+<p>This chapter delves into the concept of unit tests and strategies for their long-term maintenance. Poorly designed tests can pose challenges for engineers when addressing issues arising from brittle tests. To mitigate this, the chapter suggests establishing a test base that remains unchanged, ensuring that test cases consistently validate a function’s input and output without altering the method of achieving this. Preventing functions from being refactored in ways that alter their overall functionality maintains the functional integrity of tests. Testing the public version of the program, rather than the private version, is recommended to ensure the correct results are delivered to users.</p>
+<p>Effective testing also involves running state tests that assess the overall system state after program execution. For instance, a test adding a user to a database should verify a change in the database to confirm the function’s success. Writing clear tests with detailed notes and a distinct purpose enhances their strength and aids engineers in quickly identifying issues. Lastly, the chapter emphasizes the importance of adhering to the DRY principle (Don’t Repeat Yourself) by avoiding test or function repetition. Instead, tests should be DAMP (Descriptive and Meaningful Phrases), prioritizing larger, more comprehensive tests over multiple similar tests with slight deviations to optimize the test suite.</p>
+</section>
+<section id="action-reflection-8" class="level4">
+<h4 class="anchored" data-anchor-id="action-reflection-8">Action &amp; Reflection</h4>
+<p>All these insights prove invaluable when contemplating the creation of test cases within a large program. The concept that resonated with me the most is the emphasis on DRY, advocating against repetition in testing. It is crucial to strive for in-depth tests while maintaining a focus on a specific area of code. I am confident that we can enhance our implementation of these ideas in Cellveyor, ensuring that our test cases are not only concise but also free from unnecessary repetition.</p>
+</section>
+</section>
+<section id="db3" class="level2">
+<h2 class="anchored" data-anchor-id="db3">DB3</h2>
+<section id="summary-23" class="level4">
+<h4 class="anchored" data-anchor-id="summary-23">Summary</h4>
+<p>This chapter explores the concept of unit tests and their long-term maintenance strategies. A poorly designed test can create challenges for engineers, and the chapter suggests establishing an unchanging test base to ensure consistent validation of a function’s input and output. The focus is on preventing functions from being refactored in ways that alter their overall functionality, maintaining the functional integrity of tests. Testing the public version of the program, as opposed to the private version, is recommended to ensure the correct results are delivered to users. Effective testing includes running state tests that assess the overall system state after program execution. Clear tests with detailed notes and a distinct purpose are encouraged to enhance their strength and aid engineers in quickly identifying issues. Lastly, adherence to the DRY principle (Don’t Repeat Yourself) and the importance of avoiding test or function repetition is emphasized. Tests should be DAMP (Descriptive and Meaningful Phrases), prioritizing larger, more comprehensive tests over multiple similar tests with slight deviations to optimize the test suite.</p>
+</section>
+<section id="action-reflection-9" class="level4">
+<h4 class="anchored" data-anchor-id="action-reflection-9">Action &amp; Reflection</h4>
+<p>All these insights are valuable when considering the creation of test cases within a large program. The emphasis on DRY, advocating against repetition in testing, resonates as a crucial concept. Striving for in-depth tests while maintaining a focus on a specific area of code is essential. I am confident that we can enhance our implementation of these ideas in Chasten, ensuring that our test cases are not only concise but also free from unnecessary repetition.</p>
+</section>
+</section>
+</section>
+<section id="week-12" class="level1">
+<h1>Week 12</h1>
+<section id="db4" class="level2">
+<h2 class="anchored" data-anchor-id="db4">DB4</h2>
+</section>
+<section id="summary-24" class="level2">
+<h2 class="anchored" data-anchor-id="summary-24">Summary</h2>
+<p>The introduction to the section on statistical debugging explores the process of debugging a program that intermittently passes and fails. The recommended approach involves identifying the lines of code that execute during failures but not during passes, thereby efficiently pinpointing potential bugs and streamlining the debugging process. Utilizing a collector function helps track all lines executed when a function runs with specific inputs, enabling the identification of differences in executed lines between passing and failing inputs.</p>
+<p>The method involves ranking lines by suspiciousness, evaluating how frequently certain lines run in a substantial set of failing inputs versus passing inputs. With tools like discrete or continuous spectra, developers can highlight the line of code most likely to contain a bug. Statistical debugging techniques extend beyond code coverage, utilizing variables and their changes to analyze failing runs and employing training algorithms to assign values to lines and identify error-prone lines.</p>
+</section>
+<section id="action-reflection-10" class="level2">
+<h2 class="anchored" data-anchor-id="action-reflection-10">Action &amp; Reflection</h2>
+<p>These methods prove highly effective in identifying failure points in programs and can significantly save debugging time. While the integration of test cases employing these methods into the codebase is uncertain, their potential usefulness in pinpointing error-prone sections, especially in a codebase the size of Cellveyor’s, is evident.</p>
+
+
 </section>
 </section>
 
